@@ -1,0 +1,11 @@
+CREATE TABLE IF NOT EXISTS Lights (
+    Id LONG IDENTITY NOT NULL,
+    Naam VARCHAR(100),
+    isAan VARCHAR (100),
+    kamerId LONG
+);
+
+CREATE TABLE IF NOT EXISTS Kamers (
+    Id LONG IDENTITY NOT NULL,
+    Naam VARCHAR(100)
+    );
